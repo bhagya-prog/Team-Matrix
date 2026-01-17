@@ -1,6 +1,0 @@
-mera chatbot wala folder hai and usme to reinstall the venv 
-to use the required libraries type in terminal
-python -m venv .venv
-.venv\Scripts\activate
-
-pip install -r requirements.txt
