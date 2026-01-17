@@ -7,6 +7,7 @@ import 'core/colors.dart';
 // AUTH
 import 'screens/auth/login_screen.dart';
 import 'screens/auth/signup_screen.dart';
+import 'screens/auth/auth_gate.dart';
 
 // MAIN SCREENS
 import 'screens/home/home_screen.dart';
@@ -28,8 +29,10 @@ class GrameenFinanceApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
-      initialRoute: '/login',
+      initialRoute: '/gate',
+
       routes: {
+        '/gate': (context) => const AuthGate(),
         '/login': (context) => const LoginScreen(),
         '/signup': (context) => const SignupScreen(),
         '/home': (context) => const MainNavigation(),

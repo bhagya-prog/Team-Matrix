@@ -10,6 +10,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_secure_storage: ^9.2.2
+  
+
 
   # 🌐 Backend & Networking
   http: ^1.1.0
